@@ -1,0 +1,94 @@
+body {
+    background-image: url("../images/prism.png");
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background: teal;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 24px;
+    margin: 0 30px;
+    padding: 20px;
+    float:left;
+  }
+
+  h2 {
+    text-align: center;
+    color: teal;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    position: relative;
+    left: -370px;
+  }
+
+  a {
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #71eeb8;
+    margin: 5px;
+    padding: 5px;
+    float: right;
+}
+
+.container {
+  background-color:white;
+  position: relative;
+  top:100px;
+  width: 960px;
+
+}
+
+input {
+    background-color: #3CBC8D;
+    color: white;
+}
+
+.navbar{
+  
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    height: 67px;
+  }
+
+  footer {
+    text-align: center;
+    color: white;
+    background: rgb(12, 24, 24);
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding: 20px;
+    font-size: 16px;
+    position: absolute;
+    bottom: -110%;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+}
+
+html, body {
+
+    height: 100%;
+  }
+
+  .content {
+
+    padding: 20px;
+    min-height: 100%;
+    margin: 0 auto -50px;
+  }
+
+  .footer,
+  .push {
+
+    height: 50px;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
