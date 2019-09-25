@@ -4,11 +4,11 @@
 
 Inside will be links to my index, contacts, and portfolio html pages. Inside my assests folder you will find two more folders that hold my images and css files.
 
-![About Me](Portfolio/Assests/Images/Capture1.PNG)
+![About Me](Assests/Images/Capture1.PNG)
 
-![Contacts](Portfolio/Assests/Images/Capture2.PNG)
+![Contacts](Assests/Images/Capture2.PNG)
 
-![Portfolio](Portfolio/Assests/Images/Capture3.PNG)
+![Portfolio](Assests/Images/Capture3.PNG)
 
 Here are direct links to my three webpages.
 
