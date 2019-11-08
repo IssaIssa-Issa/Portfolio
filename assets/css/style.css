@@ -1,0 +1,27 @@
+body {
+    background-image: url("../images/geometric.png");
+}
+
+img {
+    max-width: 45%;
+    position: relative;
+    left: 35px;
+    border: 1px solid black;
+}
+
+.display-4 {
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    left: 90px;
+    color: rgb(32, 224, 89);
+}
+
+p{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.jumbotron{
+    padding: 20px;
+    background-image: url("../images/capture.png");
+    background-repeat: no-repeat;
+}
