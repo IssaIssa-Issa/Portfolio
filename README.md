@@ -13,6 +13,6 @@ Link to LinkedIn Profile [Link](https://www.linkedin.com/in/issa-issa-06159718b/
 
 ### Screenshot
 
-Here is a sample of the page. ![Sample](assets/images/screenshot.png)
+Here is a sample of the page. ![Sample](../images/screenshot.png)
 
 
