@@ -7,17 +7,21 @@ img {
     position: relative;
     left: 35px;
     border: 1px solid black;
+    animation-duration: 5s;
+    animation-delay: 2s;
 }
 
 .display-4 {
     font-family: 'Playfair Display', serif;
     position: relative;
     left: 90px;
-    color: rgb(32, 224, 89);
+    color: whitesmoke;
 }
 
 p{
     font-family: 'PT Sans', sans-serif;
+    animation-duration: 5s;
+    animation-delay: 5s;
 }
 
 .jumbotron{
