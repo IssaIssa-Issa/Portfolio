@@ -26,6 +26,7 @@ p{
 
 .jumbotron{
     padding: 20px;
-    background-image: url("../images/capture.png");
+    background-image: url("../images/capture.PNG");
     background-repeat: no-repeat;
+    background-position: top center;
 }

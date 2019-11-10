@@ -11,6 +11,8 @@ Link to Portfolio Page [Link](https://IssaIssa-Issa.github.io/Portfolio/index.ht
 
 Link to LinkedIn Profile [Link](https://www.linkedin.com/in/issa-issa-06159718b/)
 
+Link to GitHub Profile [Link](https://github.com/IssaIssa-Issa)
+
 ### Screenshot
 
 Here is a sample of the page. ![Sample](assets/images/screenshot.PNG)
