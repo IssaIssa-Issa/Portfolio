@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Issa Mohamed Issa</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+  <h3 class="w3-padding-64 w3-center"><b>ISSA<br>ISSA</b></h3>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+  <a href="https://kaykuhl.github.io/project-1/html" onclick="w3_close()" class="w3-bar-item w3-button">Project 1</a> 
+  <a href="https://protected-spire-30180.herokuapp.com/" onclick="w3_close()" class="w3-bar-item w3-button">Project 2</a> 
+  <a href="https://issaissa-issa.github.io/homework4/index.html" onclick="w3_close()" class="w3-bar-item w3-button">Quiz Game</a>
+  <a href="https://issaissa-issa.github.io/homework6/index.html" onclick="w3_close()" class="w3-bar-item w3-button">Weather App</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">ISSA ISSA</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Push down content on small screens --> 
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Photo grid -->
+  <div class="w3-row">
+    <div class="w3-half">
+      <img src="assets/images/quiz.gif" style="width:100%" onclick="onClick(this)" alt="A gif of my quiz game I created">
+      <img src="assets/images/weather.PNG" style="width:100%" onclick="onClick(this)" alt="A weather app that reads todays weather and a 5 day forecast">
+      <img src="assets/images/pikachoose.PNG" style="width:100%" onclick="onClick(this)" alt="The starting page of my second project">
+    </div>
+    
+    <div class="w3-half">
+      <img src="assets/images/global1.PNG" style="width:100%" onclick="onClick(this)" alt="My first project when opened">
+      <img src="assets/images/global2.PNG" style="width:100%" onclick="onClick(this)" alt="My first project when a food and beverage are selected">
+      <img src="assets/images/pikachoose2.PNG" style="width:100%" onclick="onClick(this)" alt="A different page of my second project">
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- About section -->
+  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+    <h4><b>About Me</b></h4>
+    <img src="assets/images/profile.jpg" alt="Me" class="w3-image w3-padding-32" width="600" height="650">
+    <div class="w3-content w3-justify" style="max-width:600px">
+      <h4>My Name</h4>
+      <p>Full-stack developer with a background in Biology
+        working towards gaining an increased amount of knowledge and skill within the ever expanding
+        world of programming. Fully certified as a Full-stack developer who completed the “MERN”
+        coursework, through Bootcamp Spot partnering with the University of Minnesota. I am driven
+        by a craving to gather more skills and learn more and more everyday. I have worked in the
+        past with other developers to create fully responsive websites that provide features that
+        were requested and applying as much personality to the page as possible.</p>     
+      <p>mail: mrforesightii@gmail.com</p>
+      <p>tel: 651 361-0299</p>
+      <hr class="w3-opacity">
+      <h4 class="w3-padding-16">Technical Skills</h4>
+      <p class="w3-wide">JavaScript</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:95%">95%</div>
+      </div>
+      <p class="w3-wide">Web Design</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide">Node.js</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:80%">80%</div>
+      </div>
+      <div>
+      <a href="assets/resume.pdf"><h4>Download Resume</h4></a>
+      <hr class="w3-opacity"></div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact section -->
+  <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+    <div class="w3-content" style="max-width:600px">
+      <h4 class="w3-center"><b>Contact Me</b></h4>
+      <p>Feel free to reach out and for more information. I am always ready to learn and grow my skill set.</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input w3-border" type="text" name="Name" required>
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input w3-border" type="text" name="Email" required>
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input w3-border" type="text" name="Message" required>
+        </div>
+        <button onclick="sendMail(); return false" type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.linkedin.com/in/issa-issa-06159718b/" title="W3.CSS" target="_blank" class="w3-hover-opacity">Issa Issa</a></div>
+
+<!-- End page content -->
+</div>
+
+<script src="assets/js/index.js"></script>
+
+
+</body>
+</html>
