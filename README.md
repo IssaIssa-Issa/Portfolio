@@ -7,7 +7,7 @@ Full-stack developer with a background in Biology working towards gaining an inc
 
 ### Links
 
-Link to Portfolio Page [Link](https://IssaIssa-Issa.github.io/Portfolio/portfolio.html)
+Link to Portfolio Page [Link](https://Portfolio/portfolio.html)
 
 Link to LinkedIn Profile [Link](https://www.linkedin.com/in/issa-issa-06159718b/)
 
